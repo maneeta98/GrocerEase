@@ -9,8 +9,9 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.grocerease.R
 import com.example.grocerease.databinding.ActivityRegisterBinding
 import com.example.grocerease.model.UserModel
+import com.example.grocerease.repository.AuthRepoImpl
 import com.example.grocerease.utils.LoadingUtils
-
+import com.example.grocerease.viewmodel.AuthViewModel
 
 class RegisterActivity : AppCompatActivity() {
     lateinit var registerBinding: ActivityRegisterBinding
@@ -62,7 +63,7 @@ class RegisterActivity : AppCompatActivity() {
     }
 
     private fun addUserToDatabase(userId: String?, userModel: UserModel) {
-        authViewModel.addUserTODatabase(userId.toString(),userModel){
+        authViewModel.addUserToDatabase(userId.toString(),userModel){
                 success,message->
             if(success){
                 loadingUtils.dismiss()

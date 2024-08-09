@@ -30,7 +30,7 @@
 
     <TextView
         android:id="@+id/createAccount"
-        android:layout_gravity="center"
+        android:layout_gravity="end"
         android:layout_marginRight="10dp"
         android:text="New to application? Create Account"
         android:textColor="@android:color/holo_blue_dark"
@@ -39,7 +39,7 @@
 
     <TextView
         android:id="@+id/forgetPassword"
-        android:layout_gravity="center"
+        android:layout_gravity="end"
         android:layout_marginTop="15dp"
         android:layout_marginRight="10dp"
         android:text="Forget Password?"
