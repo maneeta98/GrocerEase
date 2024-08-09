@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "168842213780",
+    "project_id": "grocerease-dd361",
+    "storage_bucket": "grocerease-dd361.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168842213780:android:7320b6724e08a3a6737781",
+        "android_client_info": {
+          "package_name": "com.example.grocerease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh9YsmCKzAINvE0Ict7lwX3fKN6NtLePs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
